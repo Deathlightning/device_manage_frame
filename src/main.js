@@ -10,3 +10,8 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
+
+const base_url = 'http://127.0.0.1:8080/';
+export default{
+  base_url
+}
